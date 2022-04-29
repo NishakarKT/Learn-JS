@@ -1,0 +1,26 @@
+body{
+    color: white;
+    background-color: teal;
+}
+.container{
+    display: flex;
+    height: fit-content;
+    width: 50vw;
+    margin: auto;
+}
+.child{
+    color: blue;
+    background-color: aqua;
+    margin: 0vh 1vw;
+    padding: 1vh 3vw;
+    border-radius: 20px;
+}
+
+.child:hover{
+    transform: scale(1.1);
+    background-color: chartreuse;
+}
+
+.child:active{
+    background-color: gray;
+}

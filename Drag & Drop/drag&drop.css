@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+
+.whiteBox{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 10px;
+}
+
+.imgBox{
+    background: url("https://images.unsplash.com/photo-1620041354644-888bffe72076?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60") no-repeat center center / cover;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.hold{
+    border: 2px solid red;
+}
+
+.hide{
+    display: none;
+}
+
+.dashed{
+    background: rgb(214, 206, 206);
+    border-style: dashed;
+}
